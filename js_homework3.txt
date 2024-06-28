@@ -9,9 +9,7 @@ function pow (num, degree) {
   if (degree > 0) {
      temp = num // присвоювання початкового значення для розрахунку ступеня
      for (let i = 1; i < degree; i++) { // запуск циклу до поки і стане degree - 1
-         // console.log(i);
       temp *=num; // множення значення temp на num при кожній ітерації
-         // console.log (temp)
       }
      return temp;
    }
@@ -20,7 +18,6 @@ function pow (num, degree) {
     temp = 1 / num; 
     for (let i = 1; i < Math.abs(degree); i++) { // Функція Math.abs це функція яка робить число абсолютним (без урахування знаку)
       temp /= num; 
-      console.log()
     }
     return temp;
     
